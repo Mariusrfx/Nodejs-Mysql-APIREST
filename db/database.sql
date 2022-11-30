@@ -12,3 +12,7 @@ CREATE TABLE empleado (
 DESCRIBE empleado;
 
 
+INSERT INTO empleado VALUES (0,"Sergio",1125),(1,"Jared",1175),(2,"Robert",1300);
+
+SELECT * FROM empleado;
+

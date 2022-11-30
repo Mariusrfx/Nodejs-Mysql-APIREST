@@ -5,8 +5,10 @@ import empleadosRoutes from './routes/empleados.routes.js';
 
 const app = express();
 
+app.use(express.json());
+
 app.use(indexRoutes);
-app.use(empleadosRoutes);
+app.use('/api',empleadosRoutes);
 
 app.listen(3000);
 
