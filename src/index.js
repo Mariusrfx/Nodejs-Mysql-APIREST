@@ -13,5 +13,6 @@ app.use('/api',empleadosRoutes);
 
 app.listen(PORT);
 
+export default app;
+//console.log("El servidor esta corriendo en el puerto "+PORT); 
 
-console.log("El servidor esta corriendo en el puerto "+PORT); 
